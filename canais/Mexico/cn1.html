@@ -1,21 +1,63 @@
-<body bgcolor=#000>
-<div style="float: left; width: 27%">
-<a href="#" onclick="document.getElementById('pop').style.display='block';"><img src="https://tvmundo.github.io/Mundo/imgs/menu1jpg.jpg" style="border: 5px solid #808080" width="110" height="70"/>
-</div>
-
-<div style="float: left; width: 23%">
+<!DOCTYPE HTML>
+<html lang="en-US">
+    <head>
+        <title>Snap.js</title>
+        <meta http-equiv="x-ua-compatible" content="IE=edge" />
+        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-touch-fullscreen" content="yes">
+        <link rel="stylesheet" type="text/css" href="../../snap.css" />
+        <link rel="stylesheet" type="text/css" href="../assets/demo.css" />
+    </head>
+    <body>
+        <div class="snap-drawers">
+            <div class="snap-drawer snap-drawer-left">
+                <div>
+                    <h3>TV Mundo</h3>
+                    <div 
+                        
+                    </div>
+                    <h4>Demos</h4>
+                    <ul>
+                        <li><a href="default.html">Defaultaaaaaa</a></li>
+                        <li><a href="noDrag.html">No Drag</a></li>
+                        <li><a href="dragElement.html">Drag Element</a></li>
+                        <li><a href="rightDisabled.html">Right Disabled</a></li>
+                        <li><a href="hyperextend.html">Hyperextension Disabled</a></li>
+                        <li><a href="skinnyThreshold.html">Skinny Threshold</a></li>
+                        <li><a href="toggles.html">Toggles</a></li>
+                        <li><a href="classNames.html">Class Names</a></li>
+                        <li><a href="expand.html">Expanding</a></li>
+                        <li><a href="settings.html">Settings</a></li>
+                        <li><a href="ratchet/template.html">Ratchet</a></li>
+                    </ul>
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="snap-drawer snap-drawer-right"></div>
+        </div>
+        
+        <div id="content" class="snap-content">
+            <div id="toolbar">
+                <a href="#" id="open-left"></a>
+                <h1><body bgcolor=#000>
+				
+<div style="float: left; width: 30%">
 <a href="https://rawgit.com/soanatareportagens/tv/master/canais/Mexico/cn13.html"><img src="https://tvmundo.github.io/Mundo/imgs/seta.branca.esquerda.jpg"border="0" width="50" height="80"/>
 </div>
 
-<div style="float: left; width: 10%">
+<div style="float: left; width: 40%">
 <span style="color: #fff; font-size: 40px;"><b>1</b></span>
 </div>
 
 <div style="float: right; width: 30%">
 <a href="https://rawgit.com/soanatareportagens/tv/master/canais/Mexico/cn2.html"><img src="https://tvmundo.github.io/Mundo/imgs/seta.branca.direita.jpg"border="0" width="50" height="80"/>
-</div>
-
-<style>
+</div></h1>
+            </div>
+			<br/><br/><br/><br/><br/>
+			<style>
 #pop{
 display: none;
 position: fixed;
@@ -62,3 +104,17 @@ importantes na Cidade do México. Wikipédia
 -
 -
 -------------->
+			
+			
+        </div>
+        <script type="text/javascript" src="../../snap.js"></script>
+        <script type="text/javascript">
+            var snapper = new Snap({
+                element: document.getElementById('content')
+            });
+            
+        </script>
+        <script type="text/javascript" src="../assets/demo.js"></script>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>       
+    </body>
+</html>
