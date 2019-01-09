@@ -31,7 +31,7 @@
 		</style>
 	</head>
 	<body> 
-	<select id="combobox" name="combobox" onchange="tv mundo(this.value);showDiv(this.value);">
+	<select id="combobox" name="combobox" onchange="tvmundo(this.value);showDiv(this.value);">
         <option value="br" />&nbsp; &nbsp; Brasil | Canais aqui
         <OPTION value="magazinevoce" />&nbsp; &nbsp; Loja autorizada Magazine Luiza
         <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site
@@ -52,7 +52,7 @@
 				
 			                 </select>
 <SCRIPT language=Javascript>
-function tv mundo(pasta) {
+function tvmundo(pasta) {
   if (pasta == 'br') {
     var url = "https://rawgit.com/soanatareportagens/tv/master/canais/br/apresenta%C3%A7ao.html";
     window.open("https://rawgit.com/soanatareportagens/tv/master/canais/br/apresenta%C3%A7ao.html", target="_parent");<!----abre na mesma janela----->
