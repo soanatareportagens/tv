@@ -18,9 +18,9 @@
 <style>
 #pop{
 display: none;
-position: fixed;
+position: absolute;
 background-color:#000;
-top:1%;
+top:0%;
 left:auto%;
 padding:10px;
 width:100%;
@@ -31,15 +31,49 @@ border:0px solid #000}
 <body> 
 <div id="pop">
 <a href="#" onclick="document.getElementById('pop').style.display='none';"><img src="https://tvmundo.github.io/Mundo/imgs/fechar%201%20fundo%20preto.jpg"border="0" width="70" height="70"/>
-<br /><br /><br />
+<br/>
+<style>
+			*{
+				margin: 0 auto;
+				padding: 0;
+			}
+			
+			#dvCentro{
+                          
+				width:500px;
+                                height:500px;
+				background-color: #000;
+				padding: 10px;
+			}
+			
+			select{
+				font-family: Segoe UI;
+				font-size: 18px;
+				padding:5px;
+				cursor: pointer;
+			}
+			
+			select optgroup{
+				color: #111;
+			}
+		</style>
 
-<!---------------------select canais ini---------------------->
-<iframe width="100%" height="50"  scrolling="no" src="https://rawgit.com/soanatareportagens/tv/master/canais/selectcn.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-         <!---------------------select canais fim---------------------->
-<br /><br /><br />
+</style>
+
+	</head>
+	<body> <!---------------------------obs o label pode ser retirado ------------------------>
+		<div id="dvCentro">
+<iframe width="100%" height="50"  scrolling="no" src="https://rawgit.com/soanatareportagens/tv/master/canais/selectcn.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><br/>
 <!---------------------select eua ini------------------>
 <iframe width="400" height="40"  scrolling="no" src="https://rawgit.com/soanatareportagens/tv/master/canais/eua/seleua.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
- </div>  <!---------------------select eua fim ------------------> 
+   <!---------------------select eua fim ------------------> <br/>
+<!---------------------select eua ini------------------>
+<iframe width="400" height="40"  scrolling="no" src="https://rawgit.com/soanatareportagens/tv/master/canais/eua/fox.news.select.html" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+   <!---------------------select eua fim ------------------> <br/>
+</div></div>
+		
+	</body>
+</html>
                 
 <div style="text-align: center;">
 <span style="color: #fff; font-size: 20px;"><b></a>
