@@ -42,7 +42,7 @@ background: url(https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mund
        </style>
 </style>
  <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
-        <option value="plano1" />&nbsp; &nbsp;...→&nbsp; 16 Canais EUA aqui
+        <option value="plano1" />&nbsp; &nbsp;...→&nbsp; 17 Canais EUA aqui
         <OPTION value="magazinevoce" />&nbsp; &nbsp; Loja autorizada Magazine Luiza
         <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site
 	<option value="inicio" />&nbsp; &nbsp; Inicio
@@ -62,6 +62,7 @@ background: url(https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mund
         <option value="cn14" />&nbsp; 14 CBS 5 AZ - Phoenix, Arizona
         <option value="cn15" />&nbsp; 15 FOX 10 Phoenix Canal 16 Global News
 	<option value="cn16" />&nbsp; 16 Global News
+	<option value="cn17" />&nbsp; 17 Washington Post
               
 </div>      
 <!--------------------select pop up inicio--------------->
@@ -136,6 +137,10 @@ function showDiv2(pasta) {
 	if (pasta == 'cn16') {
     var url = "https://rawgit.com/soanatareportagens/tv/master/canais/eua/cn16.html";
     window.open("https://rawgit.com/soanatareportagens/tv/master/canais/eua/cn16.html", target="_parent");
+  }
+	if (pasta == 'cn17') {
+    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/eua/cn17.html";
+    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/eua/cn17.html", target="_parent");
   }
   if (pasta == 'magazinevoce') {
     var url = "https://www.magazinevoce.com.br/magazineelianefx";
