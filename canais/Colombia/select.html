@@ -42,15 +42,14 @@ background: url(https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mund
        </style>
 </style>
  <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
-        <option value="plano1" />&nbsp; &nbsp;...→&nbsp; Colombia TV | 3 Canais aqui
-        <OPTION value="magazinevoce" />&nbsp; &nbsp; Loja autorizada Magazine Luiza
-        <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site
+        <option value="plano1" />&nbsp; ...→&nbsp; Colombia TV | 4 Canais aqui
+        <OPTION value="magazinevoce" />&nbsp; Loja autorizada Magazine Luiza
+        <OPTION value="doação" />&nbsp; Fazer uma doação para este site
 	<option value="inicio" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Inicio
-	<option value="cn1" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1 City Tv en vivo - Colombia a Bogotá
-	<option value="cn2" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2 Noticias Caracol en Vivo
-        <option value="cn3" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 3 Telecaribe en Vivo
-        <option value="cn4" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ---------------------------
-        
+	<option value="cn1" />&nbsp; 1 City Tv en vivo - Colombia a Bogotá
+	<option value="cn2" />&nbsp; 2 Noticias Caracol en Vivo
+        <option value="cn3" />&nbsp; 3 Telecaribe en Vivo
+	<option value="cn4" />&nbsp; 4 Telemedellín en Vivo
        
 </div>      
 <!--------------------select pop up inicio--------------->
@@ -75,8 +74,8 @@ function showDiv2(pasta) {
     window.open("https://rawgit.com/soanatareportagens/tv/master/canais/Colombia/cn3.html", target="_parent");
   }
 	if (pasta == 'cn4') {
-    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/africa/cn4.html";
-    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/africa/cn4.html", target="_parent");
+    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/Colombia/cn4.html";
+    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/Colombia/cn4.html", target="_parent");
   }
 	if (pasta == 'cn5') {
     var url = "https://rawgit.com/soanatareportagens/tv/master/canais/africa/cn5.html";
