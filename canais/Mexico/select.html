@@ -37,8 +37,8 @@ document.getElementById(div).className = "visivel";
 .visivel { visibility: visible; }
 </style>
 
-<style type="text/css"> /* Para todos os options */ select, option{ width:100%; height:25pt; padding:1pt 17pt; 
-background: url(https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mundo%20imgs/seta%20D%20color.GIF) no-repeat left #2f4456; border: px solid #2f4456;  font-size: 19px; color: #fff; "></b></span> } 
+<style type="text/css"> /* Para todos os options */ select, option{ width:100%; height:30pt; padding:1pt 17pt; 
+background: url(https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mundo%20imgs/seta%20D%20color.GIF) no-repeat left #2f4456; border: px solid #2f4456;  font-size: 22px; color: #fff; "></b></span> } 
        </style>
 </style>
  <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
@@ -61,6 +61,7 @@ background: url(https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mund
 	 <option value="cn13" />&nbsp; Canal 13 Televisa Tijuana Oficial
                 <optgroup label="Rádios Mexicanas">
                <option value="r50">Rádio martinezserrano </option>
+               <option value="r51">Central FM Equilibrio (Señal vivo) </option>
                       </optgroup>
        
 </div>      
@@ -125,11 +126,15 @@ function showDiv2(pasta) {
     var url = "https://rawgit.com/soanatareportagens/tv/master/canais/Mexico/cn13.html";
     window.open("https://rawgit.com/soanatareportagens/tv/master/canais/Mexico/cn13.html", target="_parent");
   }
-if (pasta == 'r50') {
+      if (pasta == 'r50') {
     var url = "https://rawgit.com/soanatareportagens/tv/master/canais/Mexico/r50.html";
     window.open("https://rawgit.com/soanatareportagens/tv/master/canais/Mexico/r50.html", target="_parent");
+ }
+     if (pasta == 'r51') {
+    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/Mexico/r51.html";
+    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/Mexico/r51.html", target="_parent");
   }
-  if (pasta == 'magazinevoce') {
+    if (pasta == 'magazinevoce') {
     var url = "https://www.magazinevoce.com.br/magazineelianefx";
     window.open(url,'nova_pasta',"width=1200,height=700,left=" + (screen.width - 1200) / 2 + ",top=" + (screen.height - 700) / 2); 
   } 
