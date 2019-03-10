@@ -42,7 +42,7 @@ background: url(https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mund
        </style>
 </style>
  <select id="combobox" name="combobox" onchange="showDiv2(this.value);showDiv(this.value);">
-        <option value="plano1" />&nbsp; &nbsp;...→&nbsp; México | 14 Canais aqui
+        <option value="plano1" />&nbsp; &nbsp;...→&nbsp; México | 15 Canais aqui
         <OPTION value="magazinevoce" />&nbsp; &nbsp; Loja autorizada Magazine Luiza
         <OPTION value="doação" />&nbsp; &nbsp; Fazer uma doação para este site
 	<option value="inicio" />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Inicio
@@ -59,6 +59,7 @@ background: url(https://rawgit.com/soanatareportagens/codigosnr/master/tv%20mund
         <option value="cn11" enabled="disabled">&nbsp; Canal 11 Imagen Televisión 
         <option value="cn12" />&nbsp; Canal 12 Televisa Monterrey
 	 <option value="cn13" />&nbsp; Canal 13 Televisa Tijuana Oficial
+	 <option value="cn14" />&nbsp; Canal 14 Transmisión en directo de Televisa Veracruz Oficial
                 <optgroup label="Rádios Mexicanas">
                <option value="r50"> 1 - Rádio martinezserrano </option>
                <option value="r51">2 - Central FM Equilibrio (Señal vivo) </option>
@@ -127,7 +128,11 @@ function showDiv2(pasta) {
     var url = "https://rawgit.com/soanatareportagens/tv/master/canais/Mexico/cn13.html";
     window.open("https://rawgit.com/soanatareportagens/tv/master/canais/Mexico/cn13.html", target="_parent");
   }
-      if (pasta == 'r50') {
+	if (pasta == 'cn14') {
+    var url = "https://rawgit.com/soanatareportagens/tv/master/canais/Mexico/cn14.html";
+    window.open("https://rawgit.com/soanatareportagens/tv/master/canais/Mexico/cn14.html", target="_parent");
+  }
+	if (pasta == 'r50') {
     var url = "https://rawgit.com/soanatareportagens/tv/master/canais/Mexico/r50.html";
     window.open("https://rawgit.com/soanatareportagens/tv/master/canais/Mexico/r50.html", target="_parent");
  }
